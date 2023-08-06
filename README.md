@@ -1,4 +1,4 @@
-#Daily Practice HSBC Batch 8
+#Daily_Practice_HSBC_Batch_8
 
 1. Practice HTML
 ![image](https://github.com/AlvenioFarhan/daily_practice_HSBC_8/assets/37578802/74784d08-3ed1-4882-a4e4-32272731bf2e)
