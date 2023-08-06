@@ -1,0 +1,44 @@
+Welcome to the Exciting World of HTML! Unleash Your Creativity with Our HTML Learning Platform!
+
+Are you eager to embark on a journey into the heart of web development?
+Look no further! Our cutting-edge HTML learning website is your gateway to  mastering the language that powers the web. Whether you're a complete
+beginner or an experienced coder looking to <u>level up your skills,
+we've got something special in store for you!
+
+Why Choose Our HTML Learning Platform?
+
+Beginner-Friendly Content: Learning a new language can be intimidating,
+
+Interactive Coding Challenges: Theory is essential, but hands-on practice makes perfect.
+
+Real Projects, Real Results: Theory only gets you so far. That's why we
+focus on real-world projects that mimic industry scenarios. You'll build
+functional websites for example,
+
+Portfolio Website
+CRM
+ERP
+
+Unlock Your Web Development Potential Today!
+Whether you aspire to become a web developer, a digital entrepreneur, or
+simply want to understand the language that shapes the online world,
+
+Learning Schedule
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+
+HTML
+CSS
+Javascript
+TailwindCSS
+ReactJs
+NodeJs
+Build Your Project!
+
+Contact Us
+Submit
