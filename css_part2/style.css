@@ -1,0 +1,45 @@
+.title {
+  text-align: center;
+}
+.item-title {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottom-paragraph {
+  text-align: justify;
+}
+.h1-bottom{
+  text-align: left;
+  margin-left: 10px;
+}
+.p-bottom{
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+}
