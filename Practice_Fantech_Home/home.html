@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extends: {},
+        },
+      };
+    </script>
+  </head>
+  <body class="mx-24 my-5 text-lg">
+    <!-- Navigator -->
+    <div class="Navba flex justify-between font-bold">
+      <div class="Title font-bold">
+        <p class="text-3xl">Fintech</p>
+      </div>
+      <div class="Nav grid grid-cols-4 gap-8 self-center text-xla">
+        <p class="hover:text-yellow-600">Platform</p>
+        <p class="hover:text-yellow-600">Company</p>
+        <p class="hover:text-yellow-600">Industries</p>
+        <p class="hover:text-yellow-600">Resources</p>
+      </div>
+      <div>
+        <button
+          class="bg-white hover:bg-gray-500 text-black font-bold py-1 px-6 border-black rounded-full"
+        >
+          Sign In
+        </button>
+        <button
+          class="bg-black hover:bg-gray-500 text-white font-bold py-1 px-6 border-black rounded-full"
+        >
+          Sign Out
+        </button>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div class="flex justify-between py-20">
+      <div>
+        <div class="font-bold text-8xl py-10">
+          <p>All banks are worried about fintech ind.</p>
+        </div>
+        <div class="py-14 text-gray-400 text-2xl">
+          <p>
+            We help you get paid anyway you want, with the least amount of
+            hassel. It's just one of the reasons we are the most trusted name.
+          </p>
+        </div>
+        <div>
+          <form action="" class="py-14 flex">
+            <input
+              class="rounded-l-full p-4 border-t-2 mr-0 border-b-2 border-l-2 text-gray-800 border-black bg-white"
+              type="text"
+              placeholder="Business email"
+            />
+            <button
+              class="px-8 rounded-r-full bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-bold p-4 border-black border-t-2 border-r-2 border-b-2"
+            >
+              Get Started
+            </button>
+          </form>
+        </div>
+
+        <div class="flex justify-between items-start py-20 text-sm">
+          <button
+            class="basis-44 bg-white hover:bg-gray-300 text-black font-bold py-1 px-6 rounded-md shadow-2xl text-left"
+          >
+            <div class="flex justify-between item-center gap-3">
+              <!-- icon -->
+              <div>
+                <img
+                  src="assets/money.png"
+                  alt="Gambar Uang"
+                  width="50"
+                  height="50"
+                />
+              </div>
+              <div>
+                <p class="text-gray-500">Total Earning</p>
+                <p class="text-2xl">$22K</p>
+                <p class="text-gray-500">+10.80%</p>
+              </div>
+            </div>
+          </button>
+
+          <button
+            class="basis-44 bg-white hover:bg-gray-300 text-black font-bold py-1 px-6 rounded-md shadow-2xl text-left"
+          >
+            <div class="flex justify-center">
+              <!-- icon -->
+              <div>
+                <img
+                  src="assets/withdraw.png"
+                  alt="Gambar Withdraw"
+                  width="50"
+                  height="50"
+                />
+              </div>
+              <div>
+                <p class="text-gray-500">Withdraw</p>
+                <p class="text-2xl">$10K</p>
+                <p class="text-gray-500">+05.80%</p>
+              </div>
+            </div>
+          </button>
+
+          <button
+            class="basis-44 bg-white hover:bg-gray-300 text-black font-bold py-1 px-6 rounded-md shadow-2xl text-left"
+          >
+            <div class="flex justify-between items-center gap-3">
+              <!-- icon -->
+              <div>
+                <img
+                  src="assets/check.png"
+                  alt="Gambar Check"
+                  width="50"
+                  height="50"
+                />
+              </div>
+              <div>
+                <p class="text-gray-500">Total Projects</p>
+                <p class="text-2xl">15</p>
+                <p class="text-gray-500">+10.80%</p>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <!-- gambar model -->
+      <div class="mr-24">
+        <img
+          src="assets/model.png"
+          alt="Gambar Model"
+          width="1200"
+          height="1200"
+        />
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <div class=" flex justify-between items-center gap-3 font-bold text-4xl text-center mb-40">
+      <div>
+        <img src="assets/cc.png" alt="Gambar CC" class=" mx-auto" width="100" height="100"/>
+        <p>Improved Collection</p>
+        <p>performance</p>
+      </div>
+      <div>
+        <img src="assets/wallet.png" alt="Gambar Wallet" class=" mx-auto" width="100" height="100"/>
+        <p>Convenient, local</p>
+        <p>payment options</p>
+      </div>
+      <div>
+        <img src="assets/eurusd.png" alt="Gambar EurUSD" class=" mx-auto" width="100" height="100"/>
+        <p>The best price</p>
+        <p>guarantee</p>
+      </div>
+    </div>
+  </body>
+</html>
